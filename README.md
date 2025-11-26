@@ -13,6 +13,7 @@ The system uses MediaPipe for hand-tracking, OpenCV for image processing, and cu
 
 
 **🧠 How It Works**
+
 **1. Hand Detection**
 
     The webcam feed is processed frame-by-frame. MediaPipe identifies and tracks 21 key hand landmarks.
