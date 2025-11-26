@@ -6,13 +6,13 @@ This project implements a real-time virtual keyboard controlled entirely through
 
 The system uses MediaPipe for hand-tracking, OpenCV for image processing, and custom distance-based logic to detect key presses and deletion gestures.
 
-**Output:**
+# Output:
 <img width="1365" height="727" alt="1" src="https://github.com/user-attachments/assets/25137f04-6d31-4fcd-832b-a9c5acaecba5" />
 <img width="1365" height="727" alt="2" src="https://github.com/user-attachments/assets/5f8f65a1-7a34-4b07-8e9d-50c5ace1558f" />
 <img width="1365" height="726" alt="3" src="https://github.com/user-attachments/assets/0ad064a2-70d7-450d-af58-98f5e84a3827" />
 
 
-**🧠 How It Works**
+# 🧠 How It Works
 
 **1. Hand Detection**
 
@@ -49,7 +49,7 @@ The system uses MediaPipe for hand-tracking, OpenCV for image processing, and cu
 If the distance between the **index tip (8) and the thumb tip (4)** is very small (< 25 px),
 The last character in the text box is removed.
 
-**🛠️ Technologies Used**
+# 🛠️ Technologies Used
 
     Python 
 
@@ -61,19 +61,18 @@ The last character in the text box is removed.
 
     Math (distance calculations)
 
-**🚀 Usage Instructions**
+# 🚀 Usage Instructions
 
-**Install dependencies:**
+**1. Install dependencies:**
 
     pip install opencv-python mediapipe numpy
 
-
-**Run the program:**
+**2. Run the program:**
 
     python main.py
 
 
-**Controls:**
+# Controls:
 
     Move your index finger over a key to highlight it.
 
@@ -83,7 +82,7 @@ The last character in the text box is removed.
 
     Press Q on your keyboard to exit the program.
 
-**📬 Contact**
+# 📬 Contact
 
 If you face any problems, feel free to reach out:
 
