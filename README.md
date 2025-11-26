@@ -69,7 +69,7 @@ The last character in the text box is removed.
 
 **2. Run the program:**
 
-    python main.py
+    python Virtual_Keyboard.py
 
 
 # Controls:
